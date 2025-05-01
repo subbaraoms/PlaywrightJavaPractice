@@ -4,13 +4,17 @@
   <artifactId>PlaywrightJavaPractice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+	<playwright.version>1.51.0</playwright.version>
+  </properties>
+  
   <dependencies>
 	
 	<!-- https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
 	<dependency>
 	    <groupId>com.microsoft.playwright</groupId>
 	    <artifactId>playwright</artifactId>
-	    <version>1.51.0</version>
+	    <version>${playwright.version}</version>
 	</dependency>
 	
   </dependencies>
