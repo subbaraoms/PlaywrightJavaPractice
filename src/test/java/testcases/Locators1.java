@@ -32,6 +32,7 @@ public class Locators1 {
 		Thread.sleep(5000);
 		
 		System.out.println(page.locator("//p[contains(text(),'dummy form')]").innerText());
+		Thread.sleep(2000);
 		page.close();
 		playwright.close();
 	}
