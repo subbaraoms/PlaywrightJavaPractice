@@ -35,6 +35,7 @@ public class Locators1 {
 		Thread.sleep(2000);
 		page.close();
 		Thread.sleep(2000);
+		//Changes from Remote
 		playwright.close();
 	}
 
