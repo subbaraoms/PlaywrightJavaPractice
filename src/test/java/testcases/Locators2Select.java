@@ -47,6 +47,7 @@ public class Locators2Select {
 		for(ElementHandle  value : values2) 
 			System.out.println(value.innerText());
 		
+		Thread.sleep(2000);
 		page.close();
 		playwright.close();
 	}
